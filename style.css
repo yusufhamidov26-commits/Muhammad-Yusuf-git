@@ -57,5 +57,40 @@ body {
     height: 52px;
     background-color: #198C36;
     border-radius: 52px;
+
 }
 
+
+
+.hero {
+    padding-top: 120px;
+    padding-bottom: 130px;
+    background-image: url("./assets/images/hero.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% +   200px) 50%;
+
+}
+
+
+.hero__content {
+    height: 294px;
+    width: 491px;
+}
+
+
+.hero__title {
+    font-family: 600;
+    font-size: 48px;
+    line-height: 65.25px;
+    letter-spacing: 0%;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.hero__desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #fff;
+}
